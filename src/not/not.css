@@ -1,0 +1,11 @@
+#not {
+
+    width: 100% !important;
+    height: 85vh;
+
+}
+
+#not h1{
+    color: #1abc9c;
+    font-size: calc(2rem + 2vw)!important;
+}

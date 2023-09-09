@@ -1,8 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import '../node_modules/jquery/dist/jquery'
+
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.js'
+
+import './home/home.css'
+import './index.css';
+import './about/about.css'
+import './contact/contact.css'
+import './layout/layout.css'
+import './not/not.css'
+import './portfoilo/portfolio.css'
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
